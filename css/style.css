@@ -1,0 +1,381 @@
+    html,body
+    {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    }
+.navbar-toggler{
+    text-decoration: none;
+    border: none;
+    
+}
+
+
+
+.navbar{
+    background-color: white;
+    height: 5rem;
+    padding-bottom: .7rem 1rem;
+}
+
+
+.navbar .navbar-nav{
+    background-color: white;
+    
+} 
+
+nav.navbar .navbar-nav .nav-item .nav-link{
+    padding-right:1rem;
+    text-transform: uppercase;
+    color: black; 
+    font-size: 1rem;
+    margin: 0 auto; 
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+
+.offset:before
+{
+    content: "";
+    height: 10rem;
+    display: block;
+    margin-top: -5rem;
+}
+
+[class*"col-"]
+{
+   padding: 1rem;
+}
+
+.slider
+{
+top: 5rem;
+}
+
+
+/* margin-top: 6rem;
+position: relative;
+
+}
+
+.dropdown:hover > .dropdown-menu {
+display: block;
+margin-top: -1rem;
+}
+.dropdown{
+    top: 0;
+}
+/* section.slider .carousel{
+    position: relative;
+    margin-top: -5rem;
+} */
+
+.slider #carouselExampleIndicators{
+    background-color: brown;
+}
+
+.help{
+    
+    background-color: #246bc7;
+   
+}
+
+.call{
+    
+    background-color: #174bd8;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+
+.help .call h3{
+color: white;
+margin: 0.6rem;
+}
+
+   
+.justify{
+    display: flex;
+    justify-content: end;
+}
+button{
+    background-color: #871c03;
+    width: 104px;
+    height: 50px;
+    border-radius: 10px;
+}
+button a{
+color: white;
+text-decoration: none;
+}
+
+button a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.servicestext{
+    position: relative;
+    margin-bottom: 4rem;
+}
+.servicestext::after{
+    content: " ";
+    display: block;
+    width: 15rem;
+    height: 5px;
+    background-color: red;
+    justify-content: center;
+    position: absolute;
+margin:0 27rem;
+bottom: -1rem;
+}
+
+
+.btn2{
+    border-radius: 0%;
+    width: 150px;
+    background-color: #824b3d;
+}
+
+.secondimg img{
+    width: 38rem;
+    height: 30rem;
+}
+.thirimg img{
+    width: 38rem;
+    height: 30rem;
+}
+
+
+.services{
+    background-image: url(./img/map-dots-imges.jpg);
+    z-index: -100;
+}
+
+
+.card{
+    background-color: green;
+    margin-bottom: -15rem;
+    z-index: -1000;
+    position: relative;
+
+}
+
+.card{
+    border-radius: 10px;
+    line-height: 20px;
+    margin: 10px 0px;
+position: relative;
+background-color: white;
+}
+
+.card h5{
+    font-size: 17px;
+    color: #814b3e;
+}
+.card p{
+    font-size: 15px;
+}
+.card img{
+    width: 8rem;
+    display: block;
+    margin: 0 auto;
+}
+.card .btn{
+    justify-content: center;
+    display: block;
+    border-radius: 0%;
+}
+
+
+footer{
+        border-top: solid 2px #ffffff;
+        padding: 10px 0px;
+        background: linear-gradient(#010b18,#19191a);
+        line-height: 27px;
+}
+footer .col{
+    color: white;
+}
+
+/* -------about-------- */
+/* .abouthead
+{
+    background-color: rgb(5, 68, 5);
+    background-image: url(../img/page-banner.png);
+    width: 1620px;
+    height: auto;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+} */
+
+.abouthead {
+    background: #063813;
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+        background-image: none;
+    padding: 10px 0px;
+    background-position: bottom;
+    background-image: url(../img/page-banner.png);
+    background-repeat: no-repeat;
+}
+.abouthead h1{
+text-transform: uppercase;
+line-height: 40px;
+
+font-weight: 500;
+font-weight: bold;
+}
+
+.homeicon{
+    display: flex;
+
+}
+.border{
+    width: 100%;
+    height: auto;
+    background-color:white;
+    border-radius: 5%;
+}
+.cards{
+    padding-right: 5rem;
+}
+.lead{
+    text
+}
+
+.bg_icon span
+{
+    margin: 1rem;
+}
+.bg_iconh
+    {
+        margin: 1rem;
+        
+    }
+.bg_iconh a{
+    background-image: url(../img/bookmark.png);
+}
+
+.homeicon i:hover{
+    color: rgb(0, 255, 85);
+}
+
+.homeicon span a{
+    text-decoration: none;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}
+.homeicon span a:hover{
+    text-decoration: none;
+    color:rgb(0, 255, 0);
+}
+
+.servicestext2{
+    position: relative;
+    margin-bottom: 2rem;
+}
+.servicestext2::after{
+    content: " ";
+    display: block;
+    width: 5rem;
+    height: 2px;
+    background-color: rgb(4, 83, 4);
+    justify-content: center;
+    position: absolute;
+bottom: -1rem;
+}
+
+.bg_footer{
+    padding: 25px 0px;
+    border-top: 3px solid #fff;
+    background-image: url(../img/footer-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.contact li i{
+
+}
+.contact ul li{
+    font-size: 15px;
+    color: #fff;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+}
+.footer-contact-part ul li a{
+    font-size: 16px;
+    color: #fff;
+    line-height: 36px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.footer-contact-part ul li {
+    display: block;
+    background-image: url(../img/arrow-page.png);
+    background-repeat: no-repeat;
+    background-position: 4px 6px;
+    padding-left: 28px;
+    list-style: none;
+    text-align: left;
+    font-size: 13px;
+    color: #c3c3c3;
+    line-height: 27px;
+    text-transform: capitalize;
+}
+
+
+/* ------services----- */
+.border_box{
+    background-color: #33ac54;
+    text-decoration: none;
+    font-size: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 10px;
+   
+
+}
+.border_box p{
+    margin: 0px;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+hr.dashed {
+    border-top: 3px dashed rgb(5, 0, 0);
+    height: 5rem;
+  }
+/* @media (min-width: 1200px) { 
+
+ }
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+ }
+
+@media (max-width: 575.98px) { 
+
+   
+} */
